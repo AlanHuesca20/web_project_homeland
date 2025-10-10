@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer__author {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .footer__author {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__author {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
